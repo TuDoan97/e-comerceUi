@@ -1,3 +1,6 @@
+//Layout
+import { HeaderOnly } from '~/components/Layout';
+
 // Pages
 import Home from '~/pages/Home';
 import ContactUs from '~/pages/ContactUs';
@@ -10,7 +13,7 @@ const publicRoutes = [
     { path: '/', component: Home },
     { path: '/contactus', component: ContactUs },
     { path: '/register', component: Register },
-    { path: '/wishlist', component: WishList },
+    { path: '/wishlist', component: WishList, layout: HeaderOnly },
     { path: '/checkout', component: CheckOut },
 ];
 
