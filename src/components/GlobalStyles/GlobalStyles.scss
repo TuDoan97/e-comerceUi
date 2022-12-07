@@ -11,6 +11,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --default-layout-headertop-height: 60px;
+    --default-layout-headermid-height: 100px;
+    --default-layout-headernav-height: 42px;
+    --default-layout-with: 1169px;
+    --black-color: #000;
+    --white-color: #fff;
+}
+
 html {
     font-size: 62.5%;
 }

@@ -1,0 +1,6 @@
+.container {
+    margin-top: calc(
+        var(--default-layout-headertop-height) + var(--default-layout-headermid-height) +
+            var(--default-layout-headernav-height)
+    );
+}

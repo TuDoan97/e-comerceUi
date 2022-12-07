@@ -1,9 +1,9 @@
 import classNames from 'classnames/bind';
-import styles from './HeaderMid.module.scss';
+import styles from './HeaderNav.module.scss';
 
 const cx = classNames.bind(styles);
 
-function HeaderMid() {
+function HeaderNav() {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('inner')}></div>
@@ -11,4 +11,4 @@ function HeaderMid() {
     );
 }
 
-export default HeaderMid;
+export default HeaderNav;

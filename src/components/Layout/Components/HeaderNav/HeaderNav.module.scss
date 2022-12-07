@@ -1,0 +1,8 @@
+.wrapper {
+    position: fixed;
+    top: calc(var(--default-layout-headertop-height) + var(--default-layout-headermid-height));
+    left: 0;
+    right: 0;
+    height: var(--default-layout-headernav-height);
+    background-color: pink;
+}
