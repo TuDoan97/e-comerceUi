@@ -23,10 +23,10 @@
         gap: 8px;
         align-items: center;
         li a {
-            text-decoration: none;
             color: var(--white-color);
             padding: 8px 0;
             text-transform: uppercase;
+            font-size: 1.3rem;
         }
     }
 
@@ -39,6 +39,8 @@
 
     .price {
         color: var(--white-color);
+        font-size: 1.8rem;
+        font-weight: 700;
     }
 
     .checkout {
@@ -46,13 +48,14 @@
         border-radius: 5px;
         padding: 0.9rem 1.5rem;
         text-transform: uppercase;
+        font-family: var(--font-family);
         outline: none;
         border: none;
 
         a {
-            text-decoration: none;
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             color: var(--white-color);
+            font-weight: 700;
         }
     }
 }
