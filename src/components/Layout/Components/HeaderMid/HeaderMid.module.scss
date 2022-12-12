@@ -6,6 +6,9 @@
     right: 0;
     // background-color: aqua;
     padding: 0 60px;
+    text-transform: uppercase;
+    z-index: 1;
+    background-color: var(--white-color);
 }
 
 .inner {
@@ -30,17 +33,42 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
 
     .region-price {
         display: flex;
         align-items: center;
     }
+
+    .search {
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
 }
 
 .region-price {
+    display: flex;
     .flag {
-        width: 32px;
-        height: 32px;
+        width: 22px;
+        height: 22px;
         border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .region {
+        font-size: 1.4rem;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+
+    .region-symbol {
+        font-size: 1.4rem;
+        font-weight: 200;
+    }
+
+    .icon-down {
+        font-size: 1.4rem;
+        margin-left: 4px;
     }
 }
