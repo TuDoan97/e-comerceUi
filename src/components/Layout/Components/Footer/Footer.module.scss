@@ -1,0 +1,157 @@
+.wrapperTop {
+    padding: 0 60px;
+    padding-top: 24px;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+// Footer Top
+.about-us,
+.customer-information,
+.connect-withUs,
+.Get-in-Touch {
+    flex: 1;
+}
+
+ul {
+    li {
+        font-size: 1.2rem;
+        color: #b4b4b4;
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: var(--black-color);
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.connect-withUs {
+    .input {
+        display: flex;
+        width: 90%;
+        border: 1px solid #ccc;
+
+        input {
+            flex: 1;
+            padding: 13px 20px;
+            font-size: 1.4rem;
+        }
+
+        .input-icon {
+            font-size: 1.4rem;
+            padding: 14px 8px;
+
+            &:hover {
+                color: var(--black-color);
+            }
+        }
+    }
+}
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 5px;
+    margin-top: 14px;
+
+    .facebook-icon,
+    .twitter-icon,
+    .linkin-icon,
+    .pinterest-icon,
+    .youtube-icon,
+    .insta-icon {
+        width: 37px;
+        height: 37px;
+    }
+
+    .facebook-icon {
+        color: #4c76be;
+    }
+
+    .twitter-icon {
+        color: #00c7ff;
+    }
+
+    .linkin-icon {
+        color: #0b86ca;
+    }
+
+    .pinterest-icon {
+        color: #fe3636;
+    }
+
+    .youtube-icon {
+        color: #fd3832;
+    }
+
+    .insta-icon {
+        color: #7c5641;
+    }
+}
+
+.Get-in-Touch {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    h2 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .address,
+    span {
+        font-size: 1.2rem;
+        color: #b4b4b4;
+        margin-top: -5px;
+    }
+
+    .footer-contact {
+        font-size: 1.2rem;
+
+        a {
+            color: #2a729e;
+        }
+    }
+}
+
+// Footter mid
+.wrapperMid {
+    height: 46px;
+    background-color: #f7f7f7;
+    margin-top: 27px;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+}
+
+.innerMid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        flex: 1;
+        font-size: 12px;
+    }
+}
+
+.pay-list {
+    display: flex;
+}
+
+.pay-item {
+    width: 50%;
+    img {
+        // display: inline-block;
+        width: 100%;
+        height: 23px;
+        object-fit: contain;
+    }
+}

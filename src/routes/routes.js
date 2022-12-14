@@ -1,5 +1,5 @@
 //Layout
-import { HeaderOnly } from '~/components/Layout';
+// import { HeaderOnly } from '~/components/Layout';
 
 import config from '~/config';
 
