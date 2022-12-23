@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    padding-right: 60px;
+
+    .inner {
+        margin: 20px 0;
+        width: 70%;
+        padding: 0 13px 0 34px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+        &:before {
+            content: '';
+            border-right: 1px solid #aaa;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+
+        .title {
+            color: #000;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 1.4;
+            margin-top: 0.5rem;
+            filter: contrast(0.82);
+        }
+
+        .content {
+            font-size: 1.4rem;
+            font-weight: 300;
+        }
+
+        li {
+            list-style: inside;
+            color: #000;
+            margin: 0 20px;
+        }
+    }
+}
