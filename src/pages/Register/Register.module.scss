@@ -1,0 +1,21 @@
+.wrapper {
+    padding: 0 60px;
+    display: flex;
+    min-height: 47vh;
+}
+
+// RegisterNav
+.wrapperNav {
+    width: 30%;
+    height: 100%;
+    margin: 20px 0;
+}
+
+.nav-item {
+    text-align: right;
+    margin-right: 30px;
+    font-size: 1.4rem;
+    color: var(--black-color);
+    font-weight: 500;
+    padding: 6px 0;
+}

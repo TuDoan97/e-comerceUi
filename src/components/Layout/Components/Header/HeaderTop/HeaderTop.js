@@ -2,8 +2,29 @@ import classNames from 'classnames/bind';
 import styles from './HeaderTop.module.scss';
 import { Link } from 'react-router-dom';
 import config from '~/config';
+import { faArrowUpRightFromSquare, faCashRegister, faUserTie, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const cx = classNames.bind(styles);
+
+const MENU_ITEM = [
+    {
+        icon: <FontAwesomeIcon icon={faXmark} />,
+        title: 'Need help? Contact us',
+    },
+    {
+        icon: <FontAwesomeIcon icon={faArrowUpRightFromSquare} />,
+        title: 'Sign In',
+    },
+    {
+        icon: <FontAwesomeIcon icon={faUserTie} />,
+        title: 'Register',
+    },
+    {
+        icon: <FontAwesomeIcon icon={faCashRegister} />,
+        title: ' Trade Account Registration',
+    },
+];
 
 function HeaderTop() {
     return (

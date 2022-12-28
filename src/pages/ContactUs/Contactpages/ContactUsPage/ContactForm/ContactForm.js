@@ -10,8 +10,8 @@ const schema = yup
     .object({
         name: yup.string().required('Required!').min(12, 'Minimum 12 characters').max(30, 'Maximum 30 character'),
         email: yup.string().email('Invalid email format').required('Required!'),
-        phone: yup.number().positive().integer().min(10, 'Minimum 10 characters').required('"Required!"'),
-        enquiry: yup.string(),
+        phone: yup.number().positive().integer().min(10, 'Minimum 10 characters'),
+        enquiry: yup.string().required('"Required!"'),
     })
     .required();
 
